@@ -53,7 +53,7 @@
   </ol>
 </details>
 
----
+
 
 ## Getting Started
 
@@ -67,50 +67,48 @@
 
 * TODO
 
----
 
 ## Usage
 
 * TODO
 
----
+
 
 ## Features
 
 * TODO
 
----
 
 ## Setting Up A Development Environment
 
 * See The [CONTRIBUTING.MD](https://github.com/xFGhoul/Joyride/blob/dev/CONTRIBUTING.md) Guide For More Info.
 
----
+
 
 ### Roadmap
 
 See the [open issues](https://github.com/xFGhoul/Joyride_name/issues) for a list of proposed features (and known issues).
 
----
+
 
 ### Links
 
 * [Documentation](https://Joyride.readthedocs.io)
 * [Examples](https://github.com/xFGhoul/Joyride/tree/dev/examples)
 
----
+
 
 ### Contact
 
 * [Discord](https://discord.com/users/Ghoul#6066)
 
----
+
 
 ### LICENSE
 
 Distributed under the MIT License. See [LICENSE](https://github.com/xFGhoul/Joyride/blob/dev/LICENSE) for more information.
 
----
+
 
 ### Credits
 
