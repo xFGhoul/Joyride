@@ -21,3 +21,37 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
+
+
+from abc import ABC, abstractmethod
+from typing import List
+
+from .joyride import Joyride
+
+
+class Interactable(ABC):
+    @abstractmethod
+    async def prompt():
+        pass
+
+
+class Menu:
+    def __init__(self, joyride: Joyride):
+        self.joyride = joyride
+
+    async def add_question(self, title: str, message: str, hide_answer: bool, validate):
+        pass
+
+    async def add_checkbox(
+        self, title: str, message: str, options: List[str], defaults: List[str]
+    ):
+        pass
+
+    async def add_dropdown(self, title: str, message: str, options: List[str]):
+        pass
+
+    async def add_confirm(self, title: str, message: str, default: bool):
+        pass
+
+    async def quit(self):
+        pass

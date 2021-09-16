@@ -2,7 +2,7 @@
 
 ## Development Lead
 
-* Ghoul <ghoul@example.com>
+* Ghoul
 
 ## Contributors
 
